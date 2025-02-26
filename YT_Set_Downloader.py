@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[23]:
-
-
 import os
 import re
 import time
@@ -130,12 +124,8 @@ def process_dj_mix(youtube_url, base_download_path):
 # Example usage
 if __name__ == "__main__":
     YOUTUBE_URL = "https://www.youtube.com/watch?v=vBCNlxFTkJk&t=91s"  # Replace with your DJ set link
-    DOWNLOAD_BASE_PATH = "/Users/sauravnandi/Downloaded_Music/DJ_Sets"  # Change this to your preferred path
+    DOWNLOAD_BASE_PATH = "/Users/your_username/Downloaded_Music/DJ_Sets"  # Change this to your preferred path
     process_dj_mix(YOUTUBE_URL, DOWNLOAD_BASE_PATH)
-
-
-# In[ ]:
-
 
 
 
